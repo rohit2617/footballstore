@@ -1,0 +1,28 @@
+name: footystore
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.2
+
+flutter:
+  uses-material-design: true
+  assets:
+  - assets/jersey.jpg
+  - assets/football.jpg
+  - assets/boots.jpg
+  - assets/shin_guards.jpg
+  - assets/socks.jpg
+  - assets/gloves.jpg
+
+  - assets/shorts.jpg
